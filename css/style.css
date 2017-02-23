@@ -149,17 +149,17 @@ body{
 }
 
 .features__content__circle-pic{
-  margin: calc(50% - 37px);
+  margin: calc(50% - 43px);
 }
 
 /*-----------------Gallery-------------------*/
 .gallery{
   min-height: 800px;
-  background: #591111 url("../images/background/bg_gallery.png");
+  background: #591111 url("../images/background/bg_gallery.png") no-repeat;
 }
 
 .gallery-slogan{
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .gallery-slogan h4{
@@ -191,15 +191,19 @@ body{
 .gallery__images-frame{
   margin: 0 auto;
   margin-top: 10px;
+  margin-bottom: 20px;
   width:94%;
   min-height: 512px;
-  background: grey url("../images/items/gallery_frame.png") no-repeat;
+  background: #e2e1e2;
   background-position: bottom center;
-  border-radius: 1%;
+  -o-border-radius: 10%;
+-moz-border-radius: 10%;
+ -ms-border-radius: 10%;
+-webkit-border-radius: 10%;
 }
 
 .gallery__images-frame .row1{
-  padding-top: 40px;
+  padding-top: 30px;
 }
 
 .gallery__images-frame .row2{
@@ -209,5 +213,76 @@ body{
 .gallery__images-frame img{
   display: block;
   margin: 0 auto;
-  padding-top: 40px;
+  padding-top: 30px;
+}
+
+/*-----------------Order-------------------*/
+.order{
+  position: relative;
+  min-height: 330px;
+  background-color: #323969;
+}
+
+.order-slogan{
+  margin-top: 30px;
+}
+
+.order-slogan h4{
+  font-size: 16px;
+  text-align: center;
+  color: #ff6d6d;
+  text-transform: uppercase;
+}
+
+.order__headline-formation{
+  width: 60%;
+  margin: 0 auto;
+}
+
+.order-headline h1{
+  font-size: 40px;
+  vertical-align: bottom;
+  text-align: center;
+  color: #ffffff;
+}
+
+.order-headline span{
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #f4f655;
+}
+
+.order-cotainer{
+  margin-top: 55px;
+}
+
+.order__form-list{
+  text-align: center;
+  list-style: none;
+}
+
+.order__form__list-item{
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.btn_buy{
+  height: 55px;
+  background-color: inherit;
+}
+
+.order-callSlogan{
+  position: absolute;
+  top: 55%;
+  left: 57%;
+}
+
+.order-callSlogan p{
+  vertical-align: bottom;
+  font-size: 14px;
+  color: #c5c3c5;
+}
+
+.order-callSlogan p .direction{
+  margin-left: 55%;
 }
